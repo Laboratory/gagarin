@@ -2,6 +2,8 @@
 
 # Important note
 
+[![Join the chat at https://gitter.im/Laboratory/gagarin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Laboratory/gagarin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Since version `0.4.0` the `server` object created by `meteor()` helper no longer has the `location` property. To make sure the `browser` starts on the proper location, you need to pass `server` as the first argument, so
 ```javascript
 var server = meteor();
